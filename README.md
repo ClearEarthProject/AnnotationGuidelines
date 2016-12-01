@@ -1,2 +1,2 @@
 # AnnotationGuidelines
-Home for the ClearEarth Projects annotation guidelines
+Home for the ClearEarth Project's annotation guidelines
