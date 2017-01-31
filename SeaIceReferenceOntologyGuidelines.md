@@ -1,19 +1,5 @@
 # Sea Ice Reference Ontology Annotation
 
-Named entity annotation for the sea ice reference ontologies is a specialized task, the ultimate goal of which is to move towards the ability to automatically generate the OWL language ontologies needed not just to facilitate cross-domain data discovery and use; but also to generate open-linked data as well (where appropriate).  As such, the scope of the task is restricted to only annotating those terms from specific sections of the WMO Nomenclature document from which these ontologies were derived:
-
-Clear Earth Annotation Guidelines: 
-
-Sea Ice
-
-based on the reference ontologies 
-
-(Version 4)
-
-[[TOC]]
-
-# Sea Ice Reference Ontology Annotation
-
 Named entity annotation for the sea ice reference ontologies is a specialized task, the ultimate goal of which is to move towards the ability to automatically generate the [OWL language ontologies](https://en.wikipedia.org/wiki/Web_Ontology_Language) needed not just to facilitate cross-domain data discovery and use; but also to generate open-linked data as well (where appropriate).  As such, the scope of the task is restricted to only annotating those terms from specific sections of the [WMO Nomenclature document](https://www.wmo.int/pages/prog/www/OSY/Meetings/GCW-CN1/INF28_Sea_ice_standards.pdf) from which these [ontologies](https://github.com/rduerr/ssiii/tree/master/ontology) were derived:
 
 * Section 1, 
