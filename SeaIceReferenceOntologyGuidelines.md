@@ -612,66 +612,56 @@ Young ice - ice in the transition stage between *nilas *and *first-year ice, *10
 
 ## Sea Ice Concentration Types:
 
-Bergy water - an area of freely navigable water in which *ice of land origin *is present in *concentrations *less than 1/10. There may be *sea ice *present, although the total *concentration *of all ice shall not exceed 1/10.
+**Bergy water:** an area of freely navigable water in which *ice of land origin* is present in *concentrations* less than 1/10. There may be *sea ice* present, although the total *concentration* of all ice shall not exceed 1/10.
 
 	Lower thickness: more than 1 m
-
 	Upper thickness: less than 5 m above sea-level
-
 	Upper concentration: less than 1/10
 
-Ice free - No ice is present. If ice of any kind is present this term shall not be used.
+**Ice free:** No ice is present. If ice of any kind is present this term shall not be used.
 
 	Upper concentration: 0 
 
-Close pack ice - *floating ice* in which the *concentration* is 7/10 to 8/10, composed of *floes *mostly in contact.
+**Close pack ice:** *floating ice* in which the *concentration* is 7/10 to 8/10, composed of *floes* mostly in contact.
 
 	Lower concentration: 7/10
-
 	Upper concentration: 8/10
-
 	Supertypes: sea ice
 
-Compact Ice - *floating ice* in which the *concentration *is 10/10 and no water is visible.
+**Compact Ice:** *floating ice* in which the *concentration* is 10/10 and no water is visible.
 
 	Lower concentration: 10/10
-
 	Upper concentration: 10/10
 
-Concentration - the ratio expressed in tenths describing the amount of the sea surface covered by ice as a fraction of the whole area being considered. Total *concentration *includes all stages of development that are present, partial *concentration* may refer to the amount of a particular stage or of a particular form of ice and represents only a part of the total.
+**Concentration:** the ratio expressed in tenths describing the amount of the sea surface covered by ice as a fraction of the whole area being considered. Total *concentration* includes all stages of development that are present, partial *concentration* may refer to the amount of a particular stage or of a particular form of ice and represents only a part of the total.
 
-Consolidated ice* *- *floating ice* in which the *concentration* is 10/10 and the *floes* are frozen together.
+**Consolidated ice:** *floating ice* in which the *concentration* is 10/10 and the *floes* are frozen together.
 
 	Lower concentration: 10/10
-
 	Upper concentration: 10/10
 
-Open pack ice* *- *floating ice* in which the ice *concentration* is 4/10 to 6/10, with many *leads *and *polynyas, *and the *floes *are generally not in contact with one another.
+**Open pack ice:** *floating ice* in which the ice *concentration* is 4/10 to 6/10, with many *leads* and *polynyas,* and the *floes* are generally not in contact with one another.
 
 	Lower concentration: 4/10
-
 	Upper concentration: 6/10
 
-*Open water *- a large area of freely navigable water in which *sea ice *is present in *concentrations* less than 1/10. No *ice of land origin *is present.
+**Open water:** a large area of freely navigable water in which *sea ice *is present in *concentrations* less than 1/10. No *ice of land origin *is present.
 
 	Upper concentration: less than 1/10
 
-Pack ice* *- term used in a wide sense to include any area of *sea ice *other than *fast ice *no matter what form it takes or how it is disposed. When *concentrations *are high, i.e. 7/10 or more, *drift ice *may be replaced by the term *pack ice.  *(Note: Previously the term pack ice was used for all ranges of concentration.)
+**Pack ice:** *term used in a wide sense to include any area of *sea ice* other than *fast ice* no matter what form it takes or how it is disposed. When *concentrations* are high, i.e. 7/10 or more, *drift ice* may be replaced by the term *pack ice*. (Note: Previously the term pack ice was used for all ranges of concentration.)
 
 	Upper concentration: 7/10 or more, high
-
 	Supertypes: sea ice
 
-Very close pack ice - *floating ice* in which the *concentration* is 9/10 and more, but less than 10/10.
+**Very close pack ice:** *floating ice* in which the *concentration* is 9/10 and more, but less than 10/10.
 
 	Lower concentration: 9/10
-
 	Upper concentration: 10/10
 
-Very open pack ice - *floating ice* in which the *concentration* is 1/10 to 3/10 and water preponderates over ice.
+**Very open pack ice:** *floating ice* in which the *concentration* is 1/10 to 3/10 and water preponderates over ice.
 
 	Lower concentration: 1/10
-
 	Upper concentration: 3/10
 
 
