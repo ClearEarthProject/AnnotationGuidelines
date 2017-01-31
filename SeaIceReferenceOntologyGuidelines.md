@@ -300,75 +300,60 @@ We have two mentions of fast ice in the example above. The first mention [fast i
 
 Many of the properties have upper and lower values (e.g., upper_concentration).  However, unless from the text it is clear that a value mentioned is actually the highest (or lowest) value for a property of that type of object, do not annotate it as a property.
 
-**Upper_concentration **refers to the highest concentration that a particular ice form can have. What constitutes that upper concentration varies depending on the form of the ice being described. 
+**Upper_concentration** refers to the highest concentration that a particular ice form can have. What constitutes that upper concentration varies depending on the form of the ice being described. 
 
 For example, if a sentence describing drift ice/pack ice states that the concentration of that sea ice is measured at 3/10 then that instance of the term drift ice/pack ice would not receive the upper_concentration tag since the highest concentration for this ice form is 7/10 or more by definition. Interestingly, we can think of "no ice" as a kind of ice form with 0/10 being the highest concentration possible. 
 
 *Examples:*
 
--	The [sea ice]ICE_FORM concentration was estimated to be [3/10]CONCENTRATION in the the region near the island.
+* The [sea ice]<sub>ICE_FORM</sub> concentration was estimated to be [3/10]<sub>CONCENTRATION</sub> in the the region near the island.
+  * But [sea ice] would not have either the max_concentration or min_concentration properties.
+* When concentrations are [high]<sub>CONCENTRATION</sub>, i.e. [7/10]<sub>CONCENTRATION</sub> or more, [drift ice]<sub>ICE_CON</sub> may be replaced by the term [pack ice]ICE_CON</sub>.
+* [Ice free]<subCONCENTRATION</sub> means there is [no ice present]<sub>CONCENTRATION</sub>.
 
-But [sea ice] would not have either the max_concentration or min_concentration properties.
-
-* When concentrations are [high]CONCENTRATION, i.e. [7/10]CONCENTRATION or more, [drift ice]ICE_CON may be replaced by the term [pack ice]ICE_CON.
-
-* [Ice free]CONCENTRATION means there is [no ice present]CONCENTRATION.
-
-**Lower_concentration **refers to the lowest concentration that a particular ice form can have. What constitutes the lowest concentration varies depending on the ice form being described. 
+**Lower_concentration** refers to the lowest concentration that a particular ice form can have. What constitutes the lowest concentration varies depending on the ice form being described. 
 
 For example, 7/10 is a high concentration for drift ice, but that same measurement for pack ice would warrant a lower_concentration tag as that would be a low concentration for pack ice. 
 
 *Examples:*
 
-* [Drift ice]ICE_CON/ [pack ice]ICE_CON: Term used in a wide sense to include any area of [sea ice]ICE_FORM other than [fast ice]ICE_CON no matter what form it takes or how it is disposed. When concentrations are [high]CONCENTRATION, i.e. [7/10]CONCENTRATION or more, [drift ice]ICE_CON may be replaced by the term [pack ice]ICE_CON. 
+* [Drift ice]<sub>ICE_CON</sub>/ [pack ice]<sub>ICE_CON</sub>: Term used in a wide sense to include any area of [sea ice]<sub>ICE_FORM</sub> other than [fast ice]<sub>ICE_CON</sub> no matter what form it takes or how it is disposed. When concentrations are [high]<sub>CONCENTRATION</sub>, i.e. [7/10]<sub>CONCENTRATION</sub> or more, [drift ice]<sub>ICE_CON</sub> may be replaced by the term [pack ice]<sub>ICE_CON</sub>. 
+  * *This example is interesting. When you annotate [drift ice] as an ice concentration, you should also give it the property tag upper_concentration for [high] and [7/10] or more. When you annotate [pack ice] as an ice concentration you should also give it a property tag for [high] and [7/10 or more] for lower_concentration because that is a low measurement for that kind of ice form.  *
 
-*This example is interesting. When you annotate [drift ice] as an ice concentration, you should also give it the property tag upper_concentration for [high] and [7/10] or more. When you annotate [pack ice] as an ice concentration you should also give it a property tag for [high] and [**7/10 or more]** for lower_concentration because that is a low measurement for that kind of ice form.  *
-
-**Upper_extent **refers to the measurement of an ice form’s diameter or length in which the measurement is on the high or upper end of the range for that particular form. What constitutes the upper end of that range will vary depending on the ice form. 
-
-*Examples:*
-
-* [Pancake ice]ICE_FORM is predominantly circular pieces of ice from [30 cm]EXTENT - [3 m]EXTENT in diameter.
-
-*When you annotate [pancake ice] as ice form, you should also give it the property tag upper_extent for [3 m] because 3 meters is the high end of the range ( 30 cm - 3 m) for pancake ice.  See below for the lower_extent annotation needed here as well.*
-
-**Lower_extent **refers to the measurement of an ice form’s diameter in which the measurement is on the low end of the range for that particular form. What constitutes the lower end of that range will vary depending on the ice form. 
+**Upper_extent** refers to the measurement of an ice form’s diameter or length in which the measurement is on the high or upper end of the range for that particular form. What constitutes the upper end of that range will vary depending on the ice form. 
 
 *Examples:*
 
-* [Pancake ice]ICE_FORM is predominantly circular pieces of [ice]ICE from [30 cm]EXTENT - [3 m]EXTENT in diameter.
+* [Pancake ice]<sub>ICE_FORM</sub> is predominantly circular pieces of ice from [30 cm]<sub>EXTENT</sub> - [3 m]<sub>EXTENT</sub> in diameter.
+  * *When you annotate [pancake ice] as ice form, you should also give it the property tag upper_extent for [3 m] because 3 meters is the high end of the range ( 30 cm - 3 m) for pancake ice.  See below for the lower_extent annotation needed here as well.*
 
-*When you annotate [pancake ice] as ice form, you should also give it the property tag lower extent for [30 cm] because 30 centimeters is at the low end of the range for pancake ice.  See above for the upper_extent annotation also needed.*
-
-**Upper_thickness_asl **refers to the measurement of how thick the ice is **above sea level** and is on the high end of the range for that particular ice form. 
-
-  
+**Lower_extent** refers to the measurement of an ice form’s diameter in which the measurement is on the low end of the range for that particular form. What constitutes the lower end of that range will vary depending on the ice form. 
 
 *Examples:*
 
-* [Ice island]ICE_FORM: A large piece of [floating ice]ICE_FORM protruding about [5 m]THICKNESS above sea-level, which has broken away from an Arctic [ice shelf]ICE_FORM, having a thickness of [30]THICKNESS-[50 m]THICKNESS and an area of from a [few thousand sq.m]EXTENT to [500 km²]EXTENT or more, and usually characterized by a regularly undulating surface which gives it a ribbed appearance from the air. 
+* [Pancake ice]<sub>ICE_FORM</sub> is predominantly circular pieces of [ice]<sub>ICE</sub> from [30 cm]<sub>EXTENT</sub> - [3 m]<sub>EXTENT</sub> in diameter.
+  * *When you annotate [pancake ice] as ice form, you should also give it the property tag lower extent for [30 cm] because 30 centimeters is at the low end of the range for pancake ice.  See above for the upper_extent annotation also needed.*
 
-	*When you annotate **[5 m]** **as thickness, you do NOT give it the property *
-
-*tag upper_thickness_asl because the sentence does not states that this is the maximum thickness above sea level that the ice can have.*
-
-**Lower_thickness_asl **refers to the measurement of how thick the ice is **above sea level** and is on the low end of the range for that particular ice form. 
+**Upper_thickness_asl** refers to the measurement of how thick the ice is **above sea level** and is on the high end of the range for that particular ice form. 
 
 *Examples:*
 
-* If it is thicker than about [2 m]THICKNESS above sea-level it is called an [ice shelf]ICE_FORM.
+* [Ice island]<sub>ICE_FORM</sub>: A large piece of [floating ice]<sub>ICE_FORM</sub> protruding about [5 m]<sub>THICKNESS</sub> above sea-level, which has broken away from an Arctic [ice shelf]<sub>ICE_FORM</sub>, having a thickness of [30]<sub>THICKNESS</sub>-[50 m]<sub>THICKNESS</sub> and an area of from a [few thousand sq.m]<sub>EXTENT</sub> to [500 km²]<sub>EXTENT</sub> or more, and usually characterized by a regularly undulating surface which gives it a ribbed appearance from the air. 
+  * *When you annotate [5 m] as thickness, you do NOT give it the property tag upper_thickness_asl because the sentence does not states that this is the maximum thickness above sea level that the ice can have.*
 
-	When we annotate [2 m] as thickness, we also give it the property tag 
-
-lower_thickness_asl because this is the lowest possible thickness above sea level possible for an ice shelf.
-
-**Upper_thickness**** **refers to a measurement of thickness for an ice form, which is on the high end of the range for that particular form. What constitutes as the high or upper end of that range will vary depending on the ice form. 
+**Lower_thickness_asl** refers to the measurement of how thick the ice is **above sea level** and is on the low end of the range for that particular ice form. 
 
 *Examples:*
 
-* [Young ice]ICE_DEVEL is [ice]ICE in the transition stage between [nilas]ICE_DEVEL and [first-year ice]ICE_DEVEL, [10]THICKNESS - [30 cm]THICKNESS in thickness. 
+* If it is thicker than about [2 m]<sub>THICKNESS</sub> above sea-level it is called an [ice shelf]<sub>ICE_FORM</sub>.
+  * When we annotate [2 m] as thickness, we also give it the property tag lower_thickness_asl because this is the lowest possible thickness above sea level possible for an ice shelf.
 
-*When you t**ag [young ice] as ice development, you should also tag [30 cm] as upper_thickness since this measurement falls on the high end of the range for ice thickness for young ice. See below for the Lower_thickness annotation also needed.*
+**Upper_thickness** refers to a measurement of thickness for an ice form, which is on the high end of the range for that particular form. What constitutes as the high or upper end of that range will vary depending on the ice form. 
+
+*Examples:*
+
+* [Young ice]<sub>ICE_DEVEL</sub> is [ice]<sub>ICE</sub> in the transition stage between [nilas]<sub>ICE_DEVEL</sub> and [first-year ice]<sub>ICE_DEVEL</sub>, [10]<sub>THICKNESS</sub> - [30 cm]<sub>THICKNESS</sub> in thickness. 
+  * *When you tag [young ice] as ice development, you should also tag [30 cm] as upper_thickness since this measurement falls on the high end of the range for ice thickness for young ice. See below for the Lower_thickness annotation also needed.*
 
 		
 
@@ -376,35 +361,28 @@ lower_thickness_asl because this is the lowest possible thickness above sea leve
 
 *When we tag [nilas] as ice development, we also tag **[10 cm**] as upper_thickness because this measurement falls on the high end of the range for ice thickness for nilas. *
 
-**Lower_thickness **refers to a measurement of thickness for an ice form, which is on the low end of the range for that particular form. What constitutes as the low or lower end of the range will vary depending on the ice form. 
+**Lower_thickness** refers to a measurement of thickness for an ice form, which is on the low end of the range for that particular form. What constitutes as the low or lower end of the range will vary depending on the ice form. 
 
 *Examples:*
 
-* [Young ice]ICE_DEVEL is [ice]ICE in the transition stage between [nilas]ICE_DEVEL and [first-year ice]ICE_DEVEL, [10]THICKNESS- 30 [cm]THICKNESS in thickness. 
+* [Young ice]<sub>ICE_DEVEL</sub> is [ice]<sub>ICE</sub> in the transition stage between [nilas]<sub>ICE_DEVEL</sub> and [first-year ice]<sub>ICE_DEVEL</sub>, [10]<sub>THICKNESS</sub>- 30 [cm]<sub>THICKNESS</sub> in thickness. 
+  * *When we tag [young ice] as ice development, we also tag [**10...cm**] as lower_thickness because this measurement is on the low end of the range for ice thickness for young ice. See above for the upper_thickness annotation also needed.*
+* [Grey ice]<sub>ICE_DEVEL</sub> is [young ice]<sub>ICE_DEVEL</sub> that is [10]<sub>THICKNESS</sub> - [15 cm]<sub>THICKNESS</sub> thick. Less elastic than [nilas]<sub>ICE_DEVEL</sub> and breaks on swell. 
+  * *When we tag [grey ice] as ice development, we also tag [**10...cm**] as lower_thickness because this measurement is on the low end of the range for ice thickness for grey ice.*
 
-*When we tag [young ice] as ice development, we also tag [**10...cm**] as lower_thickness because this measurement is on the low end of the range for ice thickness for young ice. See above for the upper_thickness annotation also needed.*
-
-* [Grey ice]ICE_DEVEL is [young ice]ICE_DEVEL that is [10]THICKNESS - [15 cm]THICKNESS thick. Less elastic than [nilas]ICE_DEVEL and breaks on swell. 
-
-*When we tag [grey ice] as ice development, we also tag [**10...cm**] as lower_thickness because this measurement is on the low end of the range for ice thickness for grey ice. *
-
-**Upper_age **refers to the number of snow melts (or summers) that an ice form has survived. We use this tag when an ice form has reached the upper end of the range for that particular ice form. 
+**Upper_age** refers to the number of snow melts (or summers) that an ice form has survived. We use this tag when an ice form has reached the upper end of the range for that particular ice form. 
 
 *Examples:*
 
-* [First-year ice]ICE_DEVEL is [sea ice]ICE_FORM of not more than [one winter’s growth]AGE, developing from [young ice]ICE_DEVEL; thickness [30 cm]THICKNESS - [2m]THICKNESS. May be subdivided into [thin first-year ice / white ice]ICE_DEVEL, [medium first-year ice]ICE_DEVEL and [thick first-year ice]ICE_DEVEL. 
+* [First-year ice]<sub>ICE_DEVEL</sub> is [sea ice]<sub>ICE_FORM</sub> of not more than [one winter’s growth]<sub>AGE</sub>, developing from [young ice]<sub>ICE_DEVEL</sub>; thickness [30 cm]<sub>THICKNESS</sub> - [2m]<sub>THICKNESS</sub>. May be subdivided into [thin first-year ice / white ice]<sub>ICE_DEVEL</sub>, [medium first-year ice]<sub>ICE_DEVEL</sub> and [thick first-year ice]<sub>ICE_DEVEL</sub>. 
+  * *When we tag [first year ice] as ice development, we also annotated not more than [one winter’s growth] as upper_age because the oldest first-year ice can be is one winter’s growth before the snow melt that comes in the summer. *
 
-*When we tag [first year ice] as ice development, we also annotated not more than [one winter’s growth] as upper_age because the oldest first-year ice can be is one winter’s growth before the snow melt that comes in the summer. *
-
-	
-
-**Lower_age **refers to the number of summers or snow melts that an ice form has survived. We use this tag when an ice form is at the lower end of the range for that particular ice form. 
+**Lower_age** refers to the number of summers or snow melts that an ice form has survived. We use this tag when an ice form is at the lower end of the range for that particular ice form. 
 
 *Examples:*
 
-* [Old ice]ICE_DEVEL is [sea ice]ICE_FORM which has survived at least [one summer’s melt]AGE.
-
-*When we tag [old ice] as ice development, it also receives the property tag lower_age for its age at least [one summer’s melt]. One summer is the absolute lowest age possible for an ice form to be considered as old ice. *
+* [Old ice]<sub>ICE_DEVEL</sub> is [sea ice]<sub>ICE_FORM</sub> which has survived at least [one summer’s melt]<sub>AGE</sub>.
+  * *When we tag [old ice] as ice development, it also receives the property tag lower_age for its age at least [one summer’s melt]. One summer is the absolute lowest age possible for an ice form to be considered as old ice.*
 
 NOTE on subtypes and supertypes.  Typically in the WMO Nomenclature a term and its subtypes are being defined.  So when annotating that sentence/paragraph/section use subtypes and supertypes based on the term being defined (i.e., left to right). There is no need to define both the subtype and supertype between entities.
 
@@ -412,28 +390,24 @@ In other words, if the definition of floating ice says that the principal kinds 
 
 **Subtypes:** Are entities which are more specialized types of some parent type.  An example would make that much easier to understand.  If you were talking about cars, a subtype of cars might be Ford Pintos, since Pintos are cars but do not represent all the types of cars that there are.  
 
-*Examples: *
+*Examples:*
 
-* [Dark nilas]ICE_DEVEL is [nilas]ICE_DEVEL that is under [5 centimeters]THICKNESS in thickness and is very dark in color.
-
-	Dark nilas is a subtype of nilas.
+* [Dark nilas]<sub>ICE_DEVEL</sub> is [nilas]<sub>ICE_DEVEL</sub> that is under [5 centimeters]<sub>THICKNESS</sub> in thickness and is very dark in color.
+  * Dark nilas is a subtype of nilas.
 
 **Supertypes**: The inverse of subtypes.  Using the example above the supertype of a Ford Pinto would be the set of all types of cars.
 
-*Examples: *
+*Examples:*
 
-	
-
-* [Dark nilas]ICE_DEVEL is [nilas]ICE_DEVEL that is under [5 centimeters]THICKNESS in thickness and is very dark in color.
-
-	Nilas is the supertype to dark nilas.
+* [Dark nilas]<sub>ICE_DEVEL</sub> is [nilas]<sub>ICE_DEVEL</sub> that is under [5 centimeters]<sub>THICKNESS</sub> in thickness and is very dark in color.
+  * Nilas is the supertype to dark nilas.
 
 **Synonyms**: Terms that are equivalent in meaning and can be used interchangeably. 
 
-*Examples: *
+*Examples:*
 
-	Thin first-year ice / white ice first stage: 30-50 cm thick.
-		[Thin first-year ice] is a <sub>SYNONYM</sub> of [white ice].
+* Thin first-year ice / white ice first stage: 30-50 cm thick.
+  * [Thin first-year ice] is a <sub>SYNONYM</sub> of [white ice].
 
 # Glossary
 
