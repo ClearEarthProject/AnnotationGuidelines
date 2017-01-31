@@ -440,53 +440,39 @@ In other words, if the definition of floating ice says that the principal kinds 
 
 ## Ice Formation Types:
 
-Brash ice* *- accumulations of *floating ice *made up of fragments not more than 2 meters across, the wreckage of other forms of ice.
+**Brash ice:** accumulations of *floating ice *made up of fragments not more than 2 meters across, the wreckage of other forms of ice.
 
 	Upper extent: 2 m
 
-Ice breccia - ice of different stages of development frozen together.
+**Ice breccia:** ice of different stages of development frozen together.
 
-Fast ice - *Sea ice *which forms and remains fast along the coast, where it is attached to the shore, to an *ice wall,* to an *ice front,* between shoals or grounded *icebergs.* Vertical fluctuations may be observed during changes of sea-level. *Fast ice *may be formed *in situ* from seawater or by freezing of* floating ice* of any age to the shore, and it may extend a few metres or several hundred kilometres from the coast. *Fast ice *may be more than one year old and may then be prefixed with the appropriate age category (*old, second-year*, or *multi-year*). If it is thicker than about 2 m above sea-level it is called an *ice shelf.*
+**Fast ice:** *Sea ice* which forms and remains fast along the coast, where it is attached to the shore, to an *ice wall,* to an *ice front,* between shoals or grounded *icebergs.* Vertical fluctuations may be observed during changes of sea-level. *Fast ice *may be formed *in situ* from seawater or by freezing of* floating ice* of any age to the shore, and it may extend a few metres or several hundred kilometres from the coast. *Fast ice *may be more than one year old and may then be prefixed with the appropriate age category (*old, second-year*, or *multi-year*). If it is thicker than about 2 m above sea-level it is called an *ice shelf.*
 
-*	*Upper thickness: thicker than about 2m above sea-level
-
+	Upper thickness: thicker than about 2m above sea-level
 	Lower extent: a few metres
-
 	Upper extent: several hundred kilometres
-
-*	*Supertypes: sea ice, floating ice
-
+	Supertypes: sea ice, floating ice
 	Subtypes: ice shelf, fast ice second-year, fast ice multi-year, fast ice old
 
-Floe - any contiguous piece of *sea ice*. *Floes *are subdivided according to horizontal extent as follows: floe big, floe giant, floe medium, floe small, floe vast, ice cake, small ice cake.
+**Floe:** any contiguous piece of *sea ice*. *Floes* are subdivided according to horizontal extent as follows: floe big, floe giant, floe medium, floe small, floe vast, ice cake, small ice cake.
 
 	Floe big: Lower extent: 500 m | Upper extent: 2000 m | Supertypes: floe
-
 	Floe giant: Lower extent: over 10 km | Supertypes: floe
-
-Floe medium: Lower extent: 100 m | Upper extent: 500 m | Supertypes: floe
-
-Floe small: Lower extent: 20 m | Upper extent: 100 m | Supertypes: floe
-
+	Floe medium: Lower extent: 100 m | Upper extent: 500 m | Supertypes: floe
+	Floe small: Lower extent: 20 m | Upper extent: 100 m | Supertypes: floe
 	Floe vast: Lower extent: 2 km | Upper extent: 10 km | Supertypes: floe
-
 	Cake ice: Upper extent: less than 20 m | Subtypes: small ice cake
-
 	Small ice cake: Upper extent: less than 2 m | Supertypes: ice cake
 
-	
-
-Pancake Ice - Predominantly circular pieces of ice from 30 centimeters to 3 meters in diameter, and up to about 10 centimeters in thickness, with raised rims due to the pieces striking against one another. It may be formed on a slight swell from *grease ice, shuga *or *slush* or as a result of the breaking of *ice rind, nilas *or severe conditions of swell or waves, of *grey ice. *It also sometimes forms at some depth at an interface between water bodies of different physical characteristics, from where it floats to the surface; its appearance may rapidly cover wide areas of water.
+**Pancake Ice:** Predominantly circular pieces of ice from 30 centimeters to 3 meters in diameter, and up to about 10 centimeters in thickness, with raised rims due to the pieces striking against one another. It may be formed on a slight swell from *grease ice, shuga* or *slush* or as a result of the breaking of *ice rind, nilas* or under severe conditions of swell or waves, of *grey ice.* It also sometimes forms at some depth at an interface between water bodies of different physical characteristics, from where it floats to the surface; its appearance may rapidly cover wide areas of water.
 
 	Lower extent: 30 cm
-
 	Upper extent: 3 m
-
 	Upper thickness: 10 cm
 
-Sea ice - any for of ice found at sea which has originated from the freezing of sea water.
+**Sea ice:** for ice found at sea which has originated from the freezing of sea water.
 
-*Ice fragment *- a general name of any relatively flat piece of sea or river ice with a size from fractions of meter up to several kilometers across
+**Ice fragment:** a general name of any relatively flat piece of sea or river ice with a size from fractions of meter up to several kilometers across
 
 ## Sea Ice Development Types:
 
