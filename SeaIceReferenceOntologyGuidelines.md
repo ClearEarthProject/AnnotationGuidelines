@@ -490,125 +490,98 @@ Sea ice - any for of ice found at sea which has originated from the freezing of 
 
 ## Sea Ice Development Types:
 
-Dark nilas - nilas which is under 5 centimeters in thickness and is very dark in color.
+**Dark nilas:** *nilas* which is under 5 centimeters in thickness and is very dark in color.
 
 	Upper thickness: Under 5 cm
-
 	Supertypes: nilas
 
-First-year ice* *- *sea ice *of not more than one winter’s growth, developing from *young ice;* thickness 30 centimeters to 2 meters. May be subdivided into *thin first-year ice/white ice, medium first-year ice *and *thick first-year ice.*
+**First-year ice:** *sea ice* of not more than one winter’s growth, developing from *young ice;* thickness 30 centimeters to 2 meters. May be subdivided into *thin first-year ice/white ice, medium first-year ice* and *thick first-year ice.*
 
 	Lower thickness: 30 cm
-
 	Upper thickness: 2m
-
 	Upper age: No more than one winter’s growth
-
 	Subtypes: thick first-year ice, medium first-year ice, thin first-year ice/white ice
 
-Frazil Ice - fine spicules or plates of ice, suspended in water.
+**Frazil Ice:** fine spicules or plates of ice, suspended in water.
 
 	Supertypes: new ice
 
-Gray white ice - *young ice * 15-30 centimeters thick. Under pressure more likely to ridge than to raft.
+**Gray white ice:** *young ice* 15-30 centimeters thick. Under pressure more likely to ridge than to raft.
 
-	
+**Grease ice:** a later stage of freezing than *frazil ice* when the crystals have coagulated to form a soupy layer on the surface. Grease ice reflects little light, giving the sea a matt appearance.
 
-	
-
-Grease ice* *- a later stage of freezing than *frazil ice *when the crystals have coagulated to form a soupy layer on the surface. Grease ice reflects little light, giving the sea a matt appearance.
-
-Grey ice* *- *young ice *10-15 centimeters thick. Less elastic than *nilas * and breaks on swell. Usually rafts under pressure.
+**Grey ice:** *young ice* 10-15 centimeters thick. Less elastic than *nilas* and breaks on swell. Usually rafts under pressure.
 
 	Lower thickness: 10 cm
-
 	Upper thickness 15 cm
-
 	Supertypes: young ice
 
-Ice rind - a brittle shiny crust of ice formed on a quiet surface by direct freezing of from *grease ice, * usually in water of low salinity. Thickness to about 5 centimeters. Easily broken by wind or swell, commonly breaking in rectangular pieces.
+**Ice rind:** a brittle shiny crust of ice formed on a quiet surface by direct freezing of from *grease ice,* usually in water of low salinity. Thickness to about 5 centimeters. Easily broken by wind or swell, commonly breaking in rectangular pieces.
 
 	Upper thickness: 5 cm
 
-Light nilas* *- nilas which is more than 5 centimeters in thickness and rather lighter in color than *dark nilas*.
+**Light nilas:** *nilas* which is more than 5 centimeters in thickness and rather lighter in color than *dark nilas*.
 
-Medium first-year ice - *first-year ice* 70-120 centimeters thick.
+**Medium first-year ice:** *first-year ice* 70-120 centimeters thick.
 
 	Lower thickness: 70 cm
-
 	Upper thickness: 120 cm
-
 	Supertypes: first-year ice
 
-Multi-year ice - *old ice *up to 3 meters or more thick which has survived at least two summers’ melt. Hummocks even smoother than in *second-year ice, *and the ice is almost salt-free. Color, where bare, is usually blue. Melt pattern consists of large interconnecting irregular puddles  and a well-developed drainage system.
+**Multi-year ice:** *old ice *up to 3 meters or more thick which has survived at least two summers’ melt. Hummocks even smoother than in *second-year ice, *and the ice is almost salt-free. Color, where bare, is usually blue. Melt pattern consists of large interconnecting irregular puddles  and a well-developed drainage system.
 
 	Lower age: two summer’s melt
-
 	Upper thickness: 3 m or more thick
-
 	Supertypes: old ice
 
-New ice - a general term for recently formed ice which includes *frazil ice, grease ice, slush, *and *shuga. *These types of ice are composed of ice crystals which are only weakly frozen together (if at all) and have a definite form only while they are afloat.
+**New ice:** a general term for recently formed ice which includes *frazil ice, grease ice, slush, *and *shuga.* These types of ice are composed of ice crystals which are only weakly frozen together (if at all) and have a definite form only while they are afloat.
 
 	Subtypes: grease ice, frazil ice, slush, and shuga
 
-Nilas - a thin elastic crust of ice, easily bending on waves and swell and under pressure, thrusting in a pattern of interlocking ‘fingers’ (finger rafting). It has a matt surface and is up to 10 centimeters in thickness. May be subdivided into *dark nilas *and *light nilas.*
+**Nilas:** a thin elastic crust of ice, easily bending on waves and swell and under pressure, thrusting in a pattern of interlocking ‘fingers’ (finger rafting). It has a matt surface and is up to 10 centimeters in thickness. May be subdivided into *dark nilas* and *light nilas.*
 
-*	*Upper thickness: up to 10 cm
-
+	Upper thickness: up to 10 cm
 	Subtypes: light nilas, dark nilas
 
-Old ice - *sea ice *which has survived at least one summer’s melt; typical thickness up to 3 meters or more. Most topographic features are smoother than on *first-year ice. *May be subdivided into *residual, second-year ice *and *multi-year ice.*
+**Old ice:** *sea ice *which has survived at least one summer’s melt; typical thickness up to 3 meters or more. Most topographic features are smoother than on *first-year ice. *May be subdivided into *residual, second-year ice *and *multi-year ice.*
 
-*	*Lower age: at least one summer’s melt
-
+	Lower age: at least one summer’s melt
 	Lower thickness: 3 m or more
-
 	Subtypes: multi-year ice, second-year ice, residual ice
 
-Residual first-year ice - *first-year ice * that has survived the summer’s melt and is now in the new cycle of growth. It is 30 to 180 centimeters thick depending on the region where it was in summer. After 1 January (in the Southern hemisphere after 1 July), this ice is called *second-year ice.*
+**Residual first-year ice:** *first-year ice* that has survived the summer’s melt and is now in the new cycle of growth. It is 30 to 180 centimeters thick depending on the region where it was in summer. After 1 January (in the Southern hemisphere after 1 July), this ice is called *second-year ice.*
 
-*	*Lower age: first-year ice that has survived the summer’s melt and is now in the 
-
-New cycle of growth
-
+	Lower age: first-year ice that has survived the summer’s melt and is now in the New cycle of growth
 	Lower thickness: 30 cm
-
 	Upper thickness: 180 cm
-
 	Supertypes: old ice
 
-*Second-year ice *- *old ice *which has survived only one summer’s melt; typical thickness up to 2.5 meters and sometimes more. Because it is thicker than *first-year ice, *it stands higher out of the water. In contrast to *multi-year ice, *summer melting produces a regular pattern of numerous small *puddles. *Bare patches and *puddles *usually greenish-blue.
+**Second-year ice:** *old ice* which has survived only one summer’s melt; typical thickness up to 2.5 meters and sometimes more. Because it is thicker than *first-year ice, *it stands higher out of the water. In contrast to *multi-year ice, *summer melting produces a regular pattern of numerous small *puddles. *Bare patches and *puddles *usually greenish-blue.
 
-Shuga - an accumulation of spongy white ice lumps, a few centimeters across; they are formed from *grease ice *or *slush *and sometimes from *anchor ice *rising to the surface.
-
-	Supertypes: new ice
-
-Slush* *- snow which is saturated and mixed with water on land or ice surfaces, or as a viscous floating mass in water after a heavy snowfall.
+**Shuga:** an accumulation of spongy white ice lumps, a few centimeters across; they are formed from *grease ice* or *slush* and sometimes from *anchor ice* rising to the surface.
 
 	Supertypes: new ice
 
-Thick first-year ice* *- f*irst-year ice *over 120 centimeters thick
+**Slush:** snow which is saturated and mixed with water on land or ice surfaces, or as a viscous floating mass in water after a heavy snowfall.
+
+	Supertypes: new ice
+
+**Thick first-year ice:** *first-year ice* over 120 centimeters thick
 
 	Lower thickness: over 120 cm
-
 	Supertypes: first-year ice
 
-Thin first year ice/white ice - *first-year ice *30-70 centimeters thick.
+**Thin first year ice/white ice:** *first-year ice *30-70 centimeters thick.
 
 	Lower thickness: 30 cm
-
 	Upper thickness: 70 cm
-
 	Supertypes: First-year ice
 
-Young ice - ice in the transition stage between *nilas *and *first-year ice, *10-30 centimeters in thickness. May be subdivided into *grey ice *and *grey-white ice.*
+**Young ice:** ice in the transition stage between *nilas* and *first-year ice,* 10-30 centimeters in thickness. May be subdivided into *grey ice* and *grey-white ice.*
 
-*	*Lower thickness: 10 cm
-
+	Lower thickness: 10 cm
 	Upper thickness: 30 cm
-
-	Subtypes: grey-white ice (Lower thickness: 15 cm | Upper thickness: 30 cm) , grey ice
+	Subtypes: grey-white ice (Lower thickness: 15 cm | Upper thickness: 30 cm), grey ice
 
 ## Sea Ice Concentration Types:
 
