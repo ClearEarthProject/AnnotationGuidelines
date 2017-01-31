@@ -432,9 +432,8 @@ In other words, if the definition of floating ice says that the principal kinds 
 
 *Examples: *
 
-* Thin first-year ice / white ice first stage: 30-50 cm thick.
-
-[Thin first-year ice] is a SYNONYM of [white ice] .
+	Thin first-year ice / white ice first stage: 30-50 cm thick.
+		[Thin first-year ice] is a <sub>SYNONYM</sub> of [white ice].
 
 # Glossary
 
