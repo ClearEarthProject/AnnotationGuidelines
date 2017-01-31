@@ -309,7 +309,7 @@ For example, if a sentence describing drift ice/pack ice states that the concent
 * The [sea ice]<sub>ICE_FORM</sub> concentration was estimated to be [3/10]<sub>CONCENTRATION</sub> in the the region near the island.
   * But [sea ice] would not have either the max_concentration or min_concentration properties.
 * When concentrations are [high]<sub>CONCENTRATION</sub>, i.e. [7/10]<sub>CONCENTRATION</sub> or more, [drift ice]<sub>ICE_CON</sub> may be replaced by the term [pack ice]ICE_CON</sub>.
-* [Ice free]<subCONCENTRATION</sub> means there is [no ice present]<sub>CONCENTRATION</sub>.
+* [Ice free]<sub>CONCENTRATION</sub> means there is [no ice present]<sub>CONCENTRATION</sub>.
 
 **Lower_concentration** refers to the lowest concentration that a particular ice form can have. What constitutes the lowest concentration varies depending on the ice form being described. 
 
@@ -318,7 +318,7 @@ For example, 7/10 is a high concentration for drift ice, but that same measureme
 *Examples:*
 
 * [Drift ice]<sub>ICE_CON</sub>/ [pack ice]<sub>ICE_CON</sub>: Term used in a wide sense to include any area of [sea ice]<sub>ICE_FORM</sub> other than [fast ice]<sub>ICE_CON</sub> no matter what form it takes or how it is disposed. When concentrations are [high]<sub>CONCENTRATION</sub>, i.e. [7/10]<sub>CONCENTRATION</sub> or more, [drift ice]<sub>ICE_CON</sub> may be replaced by the term [pack ice]<sub>ICE_CON</sub>. 
-  * *This example is interesting. When you annotate [drift ice] as an ice concentration, you should also give it the property tag upper_concentration for [high] and [7/10] or more. When you annotate [pack ice] as an ice concentration you should also give it a property tag for [high] and [7/10 or more] for lower_concentration because that is a low measurement for that kind of ice form.  *
+  * *This example is interesting. When you annotate [drift ice] as an ice concentration, you should also give it the property tag upper_concentration for [high] and [7/10] or more. When you annotate [pack ice] as an ice concentration you should also give it a property tag for [high] and [7/10 or more] for lower_concentration because that is a low measurement for that kind of ice form.*
 
 **Upper_extent** refers to the measurement of an ice form’s diameter or length in which the measurement is on the high or upper end of the range for that particular form. What constitutes the upper end of that range will vary depending on the ice form. 
 
@@ -375,7 +375,7 @@ For example, 7/10 is a high concentration for drift ice, but that same measureme
 *Examples:*
 
 * [First-year ice]<sub>ICE_DEVEL</sub> is [sea ice]<sub>ICE_FORM</sub> of not more than [one winter’s growth]<sub>AGE</sub>, developing from [young ice]<sub>ICE_DEVEL</sub>; thickness [30 cm]<sub>THICKNESS</sub> - [2m]<sub>THICKNESS</sub>. May be subdivided into [thin first-year ice / white ice]<sub>ICE_DEVEL</sub>, [medium first-year ice]<sub>ICE_DEVEL</sub> and [thick first-year ice]<sub>ICE_DEVEL</sub>. 
-  * *When we tag [first year ice] as ice development, we also annotated not more than [one winter’s growth] as upper_age because the oldest first-year ice can be is one winter’s growth before the snow melt that comes in the summer. *
+  * *When we tag [first year ice] as ice development, we also annotated not more than [one winter’s growth] as upper_age because the oldest first-year ice can be is one winter’s growth before the snow melt that comes in the summer.*
 
 **Lower_age** refers to the number of summers or snow melts that an ice form has survived. We use this tag when an ice form is at the lower end of the range for that particular ice form. 
 
