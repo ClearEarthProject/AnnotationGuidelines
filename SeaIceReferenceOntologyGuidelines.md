@@ -110,7 +110,8 @@ When describing a bounded region region of the ocean (e.g., a bay or sea or the 
 
 **The defined entity terms related to the form of the sea ice in a region are**:
 
-
+![image alt text](IceWithForm.png)  
+ 
 *See definitions for these terms in the glossary.*
 
 *Examples:*
@@ -125,12 +126,16 @@ When describing a bounded region region of the ocean (e.g., a bay or sea or the 
 
 These terms are derived from understanding how many winter and/or summer seasons the ice has lived.  A nice graphic depicting the major ice development terms and how they relate to the number of winter freezing seasons or summer melting seasons the ice has lived through comes from wikipedia:
 
-![image alt text](image_1.png) (NOTE:  By Lusilier (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons)
+![image alt text](image_1.png) 
+
+(NOTE: By Lusilier (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons)
 
 Figure 1: In this diagram FY stands for First-year Ice, SY for Second-year Ice, and MY for Multi-year Ice
 
 **The entity terms related to the age of the sea ice in a region defined in the ontologies are**:
 
+ ![image alt text](IceWDevelopmentStage.png)  
+ 
 *See definitions for these terms in the glossary.*
 
 *Examples:*
@@ -143,6 +148,8 @@ Figure 1: In this diagram FY stands for First-year Ice, SY for Second-year Ice, 
 
 **The defined entity terms related to the concentration of the sea ice in a region are**:
 
+![image alt text](IceWConcentration.png)  
+ 
 *See definitions for these terms in the glossary.*
 
 *Examples:*
