@@ -28,7 +28,7 @@ It should be noted that you can not annotate a property unless there has been a 
 
 # The Sea Ice Ontologies
 
-There are many tools that can be used to display the relationships between terms within a suite of ontologies.  Protege is one such tool and the tool that was used in generating the ontologies in the first place.  When displayed, the top level terms are depicted in the figure below.  The part of the ontologies that we are interested in here are the terms under the Sea Ice concept described below (which will be relabeled "ice" in the next version of the ontologies). In other words the ‘forms of floating ice’, the ‘ice with concentration’, and the ‘ice with development stage’ concepts and their subconcepts. 
+There are many tools that can be used to display the relationships between terms within a suite of ontologies.  Protege is one such tool and the tool that was used in generating the ontologies in the first place.  When displayed, the top level terms are depicted in the figure below.  The part of the ontologies that we are interested in here are the terms under the Sea Ice concept described below (which will be relabeled "ice" in the next version of the ontologies). In other words the [‘forms of floating ice’] (https://github.com/ClearEarthProject/AnnotationGuidelines/blob/master/SeaIceReferenceOntologyGuidelines.md#ice-formation-types) , the ‘ice with concentration’, and the ‘ice with development stage’ concepts and their subconcepts. 
 
 # ![image alt text](image_0.png)
 
@@ -98,31 +98,30 @@ The top level entity that we will be annotating is the word "ice" and we only an
 
 Example:
 
-* Because so much [ice]ice had melted out during the previous summer, a vast expanse of ocean was exposed to low winter air temperatures, encouraging ice growth. 
+* Because so much [ice]<sub>ICE</sub> had melted out during the previous summer, a vast expanse of ocean was exposed to low winter air temperatures, encouraging ice growth. 
 
 When describing a bounded region region of the ocean (e.g., a bay or sea or the whole ocean), there are three main characteristics of the entire set of ice within that region in common use within the sea ice community:
 
 1. **Ice concentration** - or how much of the surface of the region is covered by ice;
-
 2. **Ice stage of development** - rough proxy for the age of the ice in that region, since ice forms and degrades in well-described ways
+3. **Ice form** or the form of the ice - a rough description of the areal extent or size of the pieces of ice in the region (i.e., is there only one really big piece or is the ice in small chunks or even as slush on the surface of the water)
 
-3. **Ice form** or the form of the ice - a rough description of the areal extent or size of the pieces of ice in the region (I.e., is there only one really big piece or is the ice in small chunks or even as slush on the surface of the water)
+**Ice Form** refers to the extent or size of any chunk of ice floating in water. The principal kinds of floating ice at the sea surface are sea ice which is formed by the freezing of seawater at the surface, lake ice and river ice formed on rivers or lakes and glacier ice (ice of land origin).
 
-**Ice Form*** *refers to the extent or size of any chunk of ice floating in water. The principal kinds of floating ice at the sea surface are sea ice which is formed by the freezing of seawater at the surface, lake ice and river ice formed on rivers or lakes and glacier ice (ice of land origin).
+**The defined entity terms related to the form of the sea ice in a region are**:
 
-**The defined entity terms related to the f****orm of the sea ice in ****a region are**:
 
 *See definitions for these terms in the glossary.*
 
 *Examples:*
 
-* [Ice of land origin]ICE_FORM: [Ice]ICE formed on land or in an [ice shelf]ICE_FORM, found floating in water. The concept includes [ice]ICE that is stranded or grounded. 
+* [Ice of land origin]<sub>ICE_FORM</sub>: [Ice]<sub>ICE</sub> formed on land or in an [ice shelf]<sub>ICE_FORM</sub>, found floating in water. The concept includes [ice]<sub>ICE</sub> that is stranded or grounded. 
 
-* [Floe]ICE_FORM: Any contiguous piece of [sea ice]ICE_FORM. 
+* [Floe]<sub>ICE_FORM</sub>: Any contiguous piece of [sea ice]<sub>ICE_FORM</sub>. 
 
-* Pressure ridge: process that occurs when wind, ocean currents, and other forces push [sea ice]ICE_FORM around into piles that rise and form small mountains above the level [sea ice]ICE_FORM surface; ridges are initially thin and transparent with very sharp edges from blocks of [ice]ICE piling up; also see keels.
+* Pressure ridge: process that occurs when wind, ocean currents, and other forces push [sea ice]<sub>ICE_FORM</sub> around into piles that rise and form small mountains above the level [sea ice]<sub>ICE_FORM</sub> surface; ridges are initially thin and transparent with very sharp edges from blocks of [ice]<sub>ICE</sub> piling up; also see keels.
 
-**Ice Development (the age of the ice)**** **or Ice Stage of Development is a phrase used to classify sea ice for operational purposes using the appearance and thickness of the ice as a proxy for its age. 
+**Ice Development (the age of the ice)**or Ice Stage of Development is a phrase used to classify sea ice for operational purposes using the appearance and thickness of the ice as a proxy for its age. 
 
 These terms are derived from understanding how many winter and/or summer seasons the ice has lived.  A nice graphic depicting the major ice development terms and how they relate to the number of winter freezing seasons or summer melting seasons the ice has lived through comes from wikipedia:
 
@@ -136,11 +135,11 @@ Figure 1: In this diagram FY stands for First-year Ice, SY for Second-year Ice, 
 
 *Examples:*
 
-* An [ice rind]ICE_DEVEL is a brittle shiny crust of [ice]ICE formed on a quiet surface.
+* An [ice rind]<sub>ICE_DEVEL</sub> is a brittle shiny crust of [ice]<sub>ICE</sub> formed on a quiet surface.
 
-* [Gray ice]ICE_DEVEL is [young ice]ICE_FORM that is [10]THICKNESS - [15 centimeters]THICKNESS thick.
+* [Gray ice]<sub>ICE_DEVEL</sub> is [young ice]<sub>ICE_FORM</sub> that is [10]<sub>THICKNESS</sub> - [15 centimeters]<sub>THICKNESS</sub> thick.
 
-**Ice concentration**** **refers to the concentration of ice in a region not as a measurement but as a term.
+**Ice concentration** refers to the concentration of ice in a region not as a measurement but as a term.
 
 **The defined entity terms related to the concentration of the sea ice in a region are**:
 
@@ -148,45 +147,43 @@ Figure 1: In this diagram FY stands for First-year Ice, SY for Second-year Ice, 
 
 *Examples:*
 
-* [Consolidated ice]ICE_CON is [floating ice]ICE_FORM in which the concentration is [10/10]CONCENTRATION and the [floes]ICE_FORM are frozen together.
+* [Consolidated ice]<sub>ICE_CON</sub> is [floating ice]<sub>ICE_FORM</sub> in which the concentration is [10/10]<sub>CONCENTRATION</sub> and the [floes]<sub>ICE_FORM</sub> are frozen together.
 
 **Concentration** is the ratio expressed in tenths describing the amount of the sea surface covered by ice as a fraction of the whole area being considered.
 
 *Examples:*
 
-* [Open water]ICE_CON is a large area of freely navigable water in which [sea ice]ICE_FORM is present in concentrations less than [1/10]CONCENTRATION.
+* [Open water]<sub>ICE_CON</sub> is a large area of freely navigable water in which [sea ice]<sub>ICE_FORM</sub> is present in concentrations less than [1/10]<sub>CONCENTRATION</sub>.
 
-* [Consolidated ice]ICE_CON is [floating ice]ICE_FORM in which the concentration is [10/10]CONCENTRATION and the [floes]ICE_FORM are frozen together. 
+* [Consolidated ice]<sub>ICE_CON</sub> is [floating ice]<sub>ICE_FORM</sub> in which the concentration is [10/10]<sub>CONCENTRATION</sub> and the [floes]<sub>ICE_FORM</sub> are frozen together. 
 
 **Extent** is the amount of area covered by sea ice.
 
 *Examples:*
 
-* [Shuga]ICE_DEVEL is an accumulation of spongy white ice lumps, a [few centimeters]EXTENT across.
+* [Shuga]<sub>ICE_DEVEL</sub> is an accumulation of spongy white ice lumps, a [few centimeters]<sub>EXTENT</sub> across.
 
-* [Floe giants]ICE_FORM can be over [10 km]EXTENT across.
+* [Floe giants]<sub>ICE_FORM</sub> can be over [10 km]<sub>EXTENT</sub> across.
 
-* [Sea ice]ICE_FORM extent for July 2013 averaged [8.45 million square kilometers]EXTENT ([3.26 million square miles]EXTENT).
+* [Sea ice]<sub>ICE_FORM</sub> extent for July 2013 averaged [8.45 million square kilometers]<sub>EXTENT</sub> ([3.26 million square miles]<sub>EXTENT</sub>).
 
 **Thickness** describes how thick the ice is.  Two forms of reference are commonly used.  The first is how much of the sea ice is above sea level (typically measured in centimeters or meters).  The second is the total thickness of the ice (also usually measured in centimeters).  The first type of reference is typically used for very thick ice where the total thickness is hard to observe; but can be estimated using the rubric that 9/10ths of the ice will be under the water.  The second is typically used where the ice is thin enough to be easily measured.
 
 *Examples:*
 
-* If it is thicker than about [2 meters]THICKNESS above sea-level it is called an [ice shelf]ICE_FORM.
+* If it is thicker than about [2 meters]<sub>THICKNESS</sub> above sea-level it is called an [ice shelf]<sub>ICE_FORM</sub>.
 
-* [Nilas]ICE_DEVEL has a matt surface and is up to [10 centimeters]THICKNESS in thickness.
+* [Nilas]<sub>ICE_DEVEL</sub> has a matt surface and is up to [10 centimeters]<sub>THICKNESS</sub> in thickness.
 
 **Age** describes how many melting seasons or years the sea ice has survived (first-year, second-year, multi-year, etc.).  In some cases, figuring out what the significant phrase denoting the age of the ice can be tricky, since it requires understanding whether a freeze up or melting season is what distinguishes this name from others (see the last example).
 
 *Examples:*
 
-* [Fast ice]ICE_FORM may be more than [one year old]AGE.
+* [Fast ice]<sub>ICE_FORM</sub> may be more than [one year old]<sub>AGE</sub>.
 
-	
+* [Old ice]<sub>ICE_DEVEL</sub> is [sea ice]<sub>ICE_FORM</sub> which has survived at least [one summer’s melt]<sub>AGE</sub>.
 
-* [Old ice]ICE_DEVEL is [sea ice]ICE_FORM which has survived at least [one summer’s melt]AGE.
-
-* [Residual ice]ICE_DEVEL: [First-year ice]ICE_DEVEL that has survived the [summer’s melt]AGE and is now in the [new cycle of growth]AGE. 
+* [Residual ice]<sub>ICE_DEVEL</sub>: [First-year ice]<sub>ICE_DEVEL</sub> that has survived the [summer’s melt]<sub>AGE</sub> and is now in the [new cycle of growth]<sub>AGE</sub>. 
 
 What this last example is trying to say is that if "First-year ice" survives through the summer into the next winter’s growth period it’s name is no longer “First-year ice” but now becomes “Residual ice”; so the trigger for the name change (and the age) is the phrase [new cycle of growth].
 
