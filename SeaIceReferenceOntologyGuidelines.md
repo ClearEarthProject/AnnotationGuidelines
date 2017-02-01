@@ -3,26 +3,18 @@
 Named entity annotation for the sea ice reference ontologies is a specialized task, the ultimate goal of which is to move towards the ability to automatically generate the [OWL language ontologies](https://en.wikipedia.org/wiki/Web_Ontology_Language) needed not just to facilitate cross-domain data discovery and use; but also to generate open-linked data as well (where appropriate).  As such, the scope of the task is restricted to only annotating those terms from specific sections of the [WMO Nomenclature document](https://www.wmo.int/pages/prog/www/OSY/Meetings/GCW-CN1/INF28_Sea_ice_standards.pdf) from which these [ontologies](https://github.com/rduerr/ssiii/tree/master/ontology) were derived:
 
 * Section 1, 
-
 * Section 2 (but not section 2.7 or 2.8), 
-
 * Section 4.2
-
 * Section 4.3.1
-
 * Section 4.3.2
-
 * Section 4.3.4 (but not 4.3.4.1)
-
 * Section 4.3.5
-
 * Section 4.3.6
-
 * Section 4.3.7 (skip 4.3.7.3 through 4.3.7.8 and 4.3.7.10 - 4.3.7.14)
 
 Entities are the main things annotated, while properties are used to describe or characterize relationships between entities and to specify values in these relationships where relevant.  For example, in a discussion about cars and their colors, both the words "car" and “color” would be general entities and there might be the property hasColor,  In that case, the sentence “My car is blue”, would be annotated as:
 
-[My car] is [blue].  Where [My car] would have the general_entity "car"; [blue] would have the general_entity “color”; and the property hasColor for the entity [My car] would be [blue].
+* [My car] is [blue].  Where [My car] would have the general_entity "car"; [blue] would have the general_entity “color”; and the property hasColor for the entity [My car] would be [blue].
 
 It should be noted that you can not annotate a property unless there has been a general entity tagged (i.e., can’t say hasColor blue unless "blue" has been tagged as a color).
 
@@ -38,57 +30,30 @@ There are many tools that can be used to display the relationships between terms
 
 A span refers to the section of the text that is annotated. Different projects will have different methods for defining the proper span for that project. For Clear Earth annotation, we are primarily capturing **minimum spans** with a few exceptions. A minimum span is one in which only the syntactic heads are annotated. (This generally results in single-word annotations.) 
 
-	
-
-The head of a phrase is the word that determines what syntactic type of phrase it is. 
-
-For example, in the sentence:
-
- "Our neighbor [John] bought a new, green [car]." 
-
-We have "our neighbor John" in which the syntactic head of the noun phrase (NP) is the proper noun “John” and we have the NP “a new, green car” in which the head is the noun “car.”  
-
-We can also think of the head of a phrase as the word that provides the essential meaning of the phrase. Take the NP "a new, green car" for example. What is essential to our understanding of what exactly John bought is the head “car.” Although the dependents or pre-modifiers “new” and “green” give us additional information, they are less essential to our interpretation of the sentence. 
-
-	
+* The head of a phrase is the word that determines what syntactic type of phrase it is. 
+* For example, in the sentence:
+  * "Our neighbor [John] bought a new, green [car]." 
+* We have "our neighbor John" in which the syntactic head of the noun phrase (NP) is the proper noun “John” and we have the NP “a new, green car” in which the head is the noun “car.”  
+* We can also think of the head of a phrase as the word that provides the essential meaning of the phrase. Take the NP "a new, green car" for example. What is essential to our understanding of what exactly John bought is the head “car.” Although the dependents or pre-modifiers “new” and “green” give us additional information, they are less essential to our interpretation of the sentence. 
 
 This is important to know because **we only annotate words that are the syntactic head of the phrase themselves:**
 
-Example of a markable, syntactic head of an NP:
-
-	
-
-This massive [iceberg]ICE_FORM was first observed in the Arctic Ocean in September 2010. 
-
-*We tag "iceberg" as the **ICE_FORM** because it is the head of the NP, but we do not tag the determiner “the” or the adjective “massive.” They are not part of the minimum span. *
-
-	
+* Example of a markable, syntactic head of an NP:
+  * This massive [iceberg]<sub>ICE_FORM</sub> was first observed in the Arctic Ocean in September 2010. 
+  * *We tag "iceberg" as the <sub>ICE_FORM</sub> because it is the head of the NP, but we do not tag the determiner “the” or the adjective “massive.” They are not part of the minimum span.*
 
 Exceptions to the rule of grabbing the syntactic head only:
 
-        1. **There are certain multiword expressions (MWE) that we treat as though they are minimum spans and annotate the complete phrase. **These MWEs are organized according to three categories: ice form, ice development and ice concentration and they can be found listed in diagrams in the *General Entities* section below. 
+1. **There are certain multiword expressions (MWE) that we treat as though they are minimum spans and annotate the complete phrase. **These MWEs are organized according to three categories: ice form, ice development and ice concentration and they can be found listed in diagrams in the *General Entities* section below. 
 
-*Examples:*
+  * *Examples:*
+    * [First-year ice]<sub>ICE_DEVEL</sub> is [sea ice]<sub>ICE_FORM</sub> of not more than [one winter’s growth]<sub>AGE</sub>, developing from [young ice]<sub>ICE_DEVEL</sub>; thickness [30 cm]<sub>THICKNESS</sub> - [2m]<sub>THICKNESS</sub>. May be subdivided into [thin first-year ice]<sub>ICE_DEVEL</sub> / [white ice]<sub>ICE_DEVEL</sub>, [medium first-year ice]<sub>ICE_DEVEL</sub> and [thick first-year ice]<sub>ICE_DEVEL</sub>. 
+      * In the example above, we have the following multiword expressions: [first year ice], [sea ice], [one winter’s growth] (NOTE:  This multiword expression will not be found in the diagrams on pages 12 and 14, but should still be treated as an MWE.), [young ice], [thick first-year ice], [white ice], [medium first-year ice] and [thick first-year ice]. 
 
-    * [First-year ice]ICE_DEVEL is [sea ice]ICE_FORM of not more than [one winter’s growth]AGE, developing from [young ice]ICE_DEVEL; thickness [30 cm]THICKNESS - [2m]THICKNESS. May be subdivided into [thin first-year ice]ICE_DEVEL / [white ice]ICE_DEVEL, [medium first-year ice]ICE_DEVEL and [thick first-year ice]ICE_DEVEL. 
-
-				
-
-				In the example above, we have the following 
-
-multiword expressions: [first year ice], [sea ice], [one winter’s growth] (NOTE:  This multiword expression will not be found in the diagrams on pages 12 and 14, but should still be treated as an MWE.), [young ice], [thick first-year ice], [white ice], [medium first-year ice] and [thick first-year ice]. 
-
-        2. **We always want to capture the full quantitative measurements of distance or amounts. **
-
-			
-
-		*	Examples:*
-
-* [First-year ice]ICE_DEVEL is [sea ice]ICE_FORM of not more than [one winter’s growth]AGE, developing from [young ice]ICE_DEVEL; thickness [30 cm]THICKNESS - [2m]THICKNESS.
-
-			In the example above we want to make sure to 
-
-annotate a measurement value and unit. In this example, the value is 30 and the unit is cm.
+2. **We always want to capture the full quantitative measurements of distance or amounts. **
+  * *Examples:*
+    * [First-year ice]<sub>ICE_DEVEL</sub> is [sea ice]<sub>ICE_FORM</sub> of not more than [one winter’s growth]<sub>AGE</sub>, developing from [young ice]<sub>ICE_DEVEL</sub>; thickness [30 cm]<sub>THICKNESS</sub> - [2m]<sub>THICKNESS</sub>.
+      * In the example above we want to make sure to annotate a measurement value and unit. In this example, the value is 30 and the unit is cm.
 
 # General Entities
 
