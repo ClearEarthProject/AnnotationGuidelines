@@ -1,3 +1,27 @@
+<h1 align="center"> Clear Earth Annotation Guidelines: Sea Ice</h1>
+<p align="center">
+based on the reference ontologies <br>
+(Version 4)<br>
+</p>
+
+## Table of Contents
+
+* [The Sea Ice Ontologies] (SeaIceReferenceOntologyGuidelines.md#the-sea-ice-ontologies)
+* [Selecting Span] (SeaIceReferenceOntologyGuidelines.md#selecting-span)
+* [General Entities] (SeaIceReferenceOntologyGuidelines.md#general-entities)
+* [Tricky Cases] (SeaIceReferenceOntologyGuidelines.md#tricky-cases)
+  * [Defined terms vesus Modifiers] (SeaIceReferenceOntologyGuidelines.md#1-defined-terms-versus-modifiers)
+  * [When to annotate a modifier within a long string of modifiers] (SeaIceReferenceOntologyGuidelines.md#2-when-to-annotate-a-modifier-within-a-long-string-of-modifiers)
+  * [How to annotate an entity that is a part of a discontinuous span] (SeaIceReferenceOntologyGuidelines.md#3-how-to-annotate-an-entity-that-is-a-part-of-a-discontinuous-span)
+  * [How to treat illogical or mixed terminology] (SeaIceReferenceOntologyGuidelines.md#4-how-to-treat-illogical-or-mixed-terminology)
+  * [How to Assign Properties to Entities] (SeaIceReferenceOntologyGuidelines.md#5-how-to-assign-properties-to-entities)
+  * [How to Assign Properties to Entities: Left-to-Right Annotation Rule] (SeaIceReferenceOntologyGuidelines.md#6-how-to-assign-properties-to-entities-left-to-right-annotation-rule)
+* [Properties] (SeaIceReferenceOntologyGuidelines.md#properties)
+* [Glossary] (SeaIceReferenceOntologyGuidelines.md#glossary)
+  * [Ice Formation Types] (SeaIceReferenceOntologyGuidelines.md#ice-formation-types)
+  * [Sea Ice Development Types] (SeaIceReferenceOntologyGuidelines.md#sea-ice-development-types)
+  * [Sea Ice Concentration Types] (SeaIceReferenceOntologyGuidelines.md#sea-ice-concentration-types)
+  
 # Sea Ice Reference Ontology Annotation
 
 Named entity annotation for the sea ice reference ontologies is a specialized task, the ultimate goal of which is to move towards the ability to automatically generate the [OWL language ontologies](https://en.wikipedia.org/wiki/Web_Ontology_Language) needed not just to facilitate cross-domain data discovery and use; but also to generate open-linked data as well (where appropriate).  As such, the scope of the task is restricted to only annotating those terms from specific sections of the [WMO Nomenclature document](https://www.wmo.int/pages/prog/www/OSY/Meetings/GCW-CN1/INF28_Sea_ice_standards.pdf) from which these [ontologies](https://github.com/rduerr/ssiii/tree/master/ontology) were derived:
@@ -20,7 +44,7 @@ It should be noted that you can not annotate a property unless there has been a 
 
 # The Sea Ice Ontologies
 
-There are many tools that can be used to display the relationships between terms within a suite of ontologies.  Protege is one such tool and the tool that was used in generating the ontologies in the first place.  When displayed, the top level terms are depicted in the figure below.  The part of the ontologies that we are interested in here are the terms under the Sea Ice concept described below (which will be relabeled "ice" in the next version of the ontologies). In other words the [‘forms of floating ice’] (https://github.com/ClearEarthProject/AnnotationGuidelines/blob/master/SeaIceReferenceOntologyGuidelines.md#ice-formation-types) , the ‘ice with concentration’, and the ‘ice with development stage’ concepts and their subconcepts. 
+There are many tools that can be used to display the relationships between terms within a suite of ontologies.  Protege is one such tool and the tool that was used in generating the ontologies in the first place.  When displayed, the top level terms are depicted in the figure below.  The part of the ontologies that we are interested in here are the terms under the Sea Ice concept described below (which will be relabeled "ice" in the next version of the ontologies). In other words the [‘forms of floating ice’] (https://github.com/ClearEarthProject/AnnotationGuidelines/blob/master/SeaIceReferenceOntologyGuidelines.md#ice-formation-types) , the [‘ice with concentration’] (https://github.com/ClearEarthProject/AnnotationGuidelines/blob/master/SeaIceReferenceOntologyGuidelines.md#sea-ice-concentration-types), and the [‘ice with development stage’] (https://github.com/ClearEarthProject/AnnotationGuidelines/blob/master/SeaIceReferenceOntologyGuidelines.md#sea-ice-development-types) concepts and their subconcepts. 
 
 # ![image alt text](image_0.png)
 
