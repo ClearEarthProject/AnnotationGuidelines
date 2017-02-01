@@ -194,105 +194,95 @@ What this last example is trying to say is that if "First-year ice" survives thr
 
 When annotating the WMO Nomenclature, an annotator will likely encounter several confusing sentences.  Sentences which may leave the annotator scratching their heads trying to decide what if anything to annotate and how in general that sentence should be annotated.  While any annotator is likely to encounter a few cases where no amount of guidance can help, where possible (in other words where we were able to figure out a rule folks could use) the rules encapsulated in this section should be used to help with decisions in these tricky cases.
 
-1. Defined Terms versus Modifiers
+## 1. Defined Terms versus Modifiers
 
 Each of the terms Ice Form (ice_form in Anafora), Development Stage (ice_devel in Anafora), and Ice Concentration (ice_con in Anafora) have an explicitly agreed to set of names defined in the ontologies.  If any term or set of terms is not explicitly mentioned in the lists below then it should NOT be annotated as one of these entities, even if from the context you might think that it should be. 
 
-You can find a list of terms for ice forms on page 12, ice development stage terms on page 14, and ice concentration terms on page 14. 
+You can find a list of terms for ice forms, ice development stage terms, and ice concentration terms in sections below. 
 
 *Examples:*
 
 * Thicker ice underneath the melt pond bottom...
-
-In the phrase above, thicker just implies that the ice is thicker, it isn’t a form of ice - rather it is a property of the ice - the thickness property (see thickness discussion below). In this phrase, we would only annotate [ice]ICE. 
+  * In the phrase above, thicker just implies that the ice is thicker, it isn’t a form of ice - rather it is a property of the ice - the thickness property (see thickness discussion below). In this phrase, we would only annotate [ice]<sub>ICE</sub>. 
 
 * The response of the albedo of bare sea ice..
-
-Bare sea ice is not a form of ice.  It is just sea ice without snow on top; you wouldn’t call snow-covered sea ice a form of sea ice for the same reason you wouldn’t call snow covered granite a type of rock. In this phrase, we would only annotate [sea ice]ICE_FORM.
+  * Bare sea ice is not a form of ice.  It is just sea ice without snow on top; you wouldn’t call snow-covered sea ice a form of sea ice for the same reason you wouldn’t call snow covered granite a type of rock. In this phrase, we would only annotate [sea ice]<sub>ICE_FORM</sub>.
 
 * The effects of additional black carbon on the albedo of Arctic sea ice …
+  * The modifier "Arctic" is a location so is not included in the span of the ICE_FORM annotation for the [sea ice] entity.
 
-The modifier "Arctic" is a location so is not included in the span of the ICE_FORM annotation for the [sea ice] entity.
-
-2. When to annotate a modifier within a long string of modifiers:
+## 2. When to annotate a modifier within a long string of modifiers:
 
 Long modifier strings are common in journal articles. They are used as shortcuts or ways to minimize the number of words used to characterize an object.  So in general, try to pull apart the various concepts that are all lumped together and annotate the separate concepts.  One way to do this would be to see if the sentence can be rewritten with each concept in a separate clause.
 
 For example, we could rewrite the phrase below:
 
-*Regional melt-pond fraction and albedo of thin Arctic first-year drift ice in late summer *
+  *Regional melt-pond fraction and albedo of thin Arctic first-year drift ice in late summer*
 
 As:
 
-*Regional melt-pond fraction and albedo of first-year ice in the Arctic that is thin and drifting.*
+  *Regional melt-pond fraction and albedo of first-year ice in the Arctic that is thin and drifting.*
 
 As a result, this sentence should be annotated as:
 
-Regional melt-pond fraction and albedo of [thin] Arctic [first-year] [drift ice]ICE_CON]ICE_DEVEL in late summer. 
+  * Regional melt-pond fraction and albedo of [thin] Arctic [first-year] [drift ice]<sub>ICE_CON</sub>]<sub>ICE_DEVEL</sub> in late summer. 
 
-The entities (NOTE:  Please find more information on entities on page 9.) that should be annotated are [thin first-year ice]ICE_DEVEL as a discontinuous span and [drift ice]ICE_CON.
+The entities that should be annotated are [thin first-year ice]<sub>ICE_DEVEL</sub> as a discontinuous span and [drift ice]<sub>ICE_CON</sub>.
 
 Let’s rewrite the sentence below:
 
-*Field observations suggest a pronounced difference in the seasonal evolution of first-year sea-ice albedo.*
+  *Field observations suggest a pronounced difference in the seasonal evolution of first-year sea-ice albedo.*
 
-*		*As:
+As:
 
-Field observations suggest a pronounced difference in the seasonal evolution of the albedo in [first-year] [sea-[ice]ICE_DEVEL]ICE_FORM.  
+  *Field observations suggest a pronounced difference in the seasonal evolution of the albedo in [first-year] [sea-[ice]<sub>ICE_DEVEL</sub>]<sub>ICE_FORM</sub>.*  
 
-The entities that should be annotated are [first-year ice]ICE_DEVEL as a discontinuous span and [sea-ice]ICE_FORM.
+The entities that should be annotated are [first-year ice]<sub>ICE_DEVEL</sub> as a discontinuous span and [sea-ice]<sub>ICE_FORM</sub>.
 
-3. How to annotate an entity that is a part of a discontinuous span:
+## 3. How to annotate an entity that is a part of a discontinuous span:
 
 Discontinuous spans add an extra step to entity annotation. A discontinuous span is a span that is interrupted in some way (see example immediately below). In sea ice annotation, we frequently find that the entity we’d like to tag is discontinuous because of a conjunction or a hyphen or some intervening adjectives.  An annotator can capture the complete span by linking (or adding) the disparate parts of the span together.
 
 *Example:*
 
-	Thick first year ice/ white ice : first year ice is 30 - 70 cm thick.
-
-[Thick first-year ice / white ice]ICE_DEVEL:[first-year ice]ICE_DEVEL is [30]THICKNESS - [70 cm]THICKNESS thick. 
-
-There are two THICKNESS entities in the phrase [30 - 70 cm]. To capture the full span [30 cm], we have to create a discontinuous span that links [30] to [cm]. Then we tag the continuous span [70 cm] as THICKNESS as well.
-
-If there are multiple choices for completing a discontinuous span, choose the closest one.
+* Thick first year ice/ white ice : first year ice is 30 - 70 cm thick.
+  * [Thick first-year ice / white ice]<sub>ICE_DEVEL</sub>:[first-year ice]<sub>ICE_DEVEL</sub> is [30]<sub>THICKNESS</sub> - [70 cm]<sub>THICKNESS</sub> thick. 
+    * There are two THICKNESS entities in the phrase [30 - 70 cm]. To capture the full span [30 cm], we have to create a discontinuous span that links [30] to [cm]. Then we tag the continuous span [70 cm] as THICKNESS as well.
+  * If there are multiple choices for completing a discontinuous span, choose the closest one.
 
 *Example:*
 
-May be subdivided into [residual]ICE_DEVEL, [second-year [ice]]ICE_DEVEL and [multi-year ice]ICE_DEVEL. 
+* May be subdivided into [residual]<sub>ICE_DEVEL</sub>, [second-year [ice]]<sub>ICE_DEVEL</sub> and [multi-year ice]<sub>ICE_DEVEL</sub>. 
+  * The term [residual ice]<sub>ICE_DEVEL</sub> is missing the word [ice] which is present in the other two terms. 
 
-The term [residual ice]ICE_DEVEL is missing the word [ice] which is present in the other two terms. 
-
-4. How to treat illogical or mixed terminology:
+## 4. How to treat illogical or mixed terminology:
 
 As you might expect sometimes a vocabulary or glossary is updated in a way that actually makes things more not less confusing.  The underlying sea ice ontology used as the reference here was developed with a slightly older WMO nomenclature document than the WMO nomenclature document being annotated and I am sorry to say it; but in some cases the terminology became worse not better in that new version.  As a result, follow the ontology diagrams not the document when annotating.  For example, if the ontology says the term is a form of ice but the document seems to be indicating something else, go by the ontology.
 
 For example, in the old version of the nomenclature and in the ontologies the term "pack ice" indicated freely floating ice that had a variety of concentrations (and terms for each concentration range).  As a result it should be annotated as ICE_CON in Anafora; despite the fact that the new version of the WMO Nomenclature uses a definition that indicates that it is an ice form.  
 
-Drift Ice & Pack Ice - We can consider mentions about drift ice or pack ice to be synonymous. WMO changed the nomenclature after the reference ontology was developed, and we see both terms used in academic journals and even some very strange mixes of old and new.
+**Drift Ice & Pack Ice** - We can consider mentions about drift ice or pack ice to be synonymous. WMO changed the nomenclature after the reference ontology was developed, and we see both terms used in academic journals and even some very strange mixes of old and new.
 
-	Example: The average [open-water]ICE_CON fraction of fowi=11 % was 
-
-characteristic of [very close drift ice]ICE_CON 
-
-**Note: **The correct phrase should have been "very close pack ice".
+* Example: The average [open-water]<sub>ICE_CON</sub> fraction of 11 % was characteristic of [very close drift ice]<sub>ICE_CON</sub> 
+  * Note: The correct phrase should have been "very close pack ice".
 
 Do not annotate instances that mix multiple categories together like "bare white ice" or “summer sea ice.” At this time, only the phrases in the ontology (see below) should be annotated without the extra modifiers (in our examples, “white ice” and “sea ice” would be annotated).  However, we would tag an instance of a phrase in which the words in the term or phrase are out of order like “sea pack ice” for example. 
 
 Watch out for terms like "younger ice" which seem as though they are referring to young ice (which would receive an ICE_DEVEL tag); but which actually are talking about the combination of several of the ice_devel categories (in the case where this example was drawn; all of the non-multiyear categories was meant).
 
-5. How to Assign Properties to Entities:
+## 5. How to Assign Properties to Entities:
 
 The normal rule is to annotate properties for entities within the same paragraph or section.  Don’t go to other paragraphs to associate properties with an entity.  
 
 Occasionally multiple mentions of an entity will occur within a paragraph.  These can share the same properties so that they are annotated the same way each time they are encountered in that paragraph.  
 
-6. How to Assign Properties to Entities: Left-to-Right Annotation Rule:
+## 6. How to Assign Properties to Entities: Left-to-Right Annotation Rule:
 
 The first mention of an entity in a paragraph or section receives all of the properties associated with that entity within a section (or all the relevant properties to its right). The second mention receives only the relevant properties to its right (ignoring all the properties that came before it on the left). And so on and so forth. 
 
 *Example:*
 
-[Fast ice]ICE_FORM: [Sea ice]ICE_FORM which forms and remains fast along the coast, where it is attached to the shore, to an ice wall, to an ice front, between shoals or grounded [icebergs]ICE_FORM. Vertical fluctuations may be observed during changes of sea-level. [Fast ice]ICE_FORM may be formed in situ from sea water or by freezing of [floating ice]ICE_FORM of any age to the shore, and it may extend a [few meters]EXTENT or [several hundred kilometres]EXTENT from the coast.
+[Fast ice]<sub>ICE_FORM</sub>: [Sea ice]<sub>ICE_FORM</sub> which forms and remains fast along the coast, where it is attached to the shore, to an ice wall, to an ice front, between shoals or grounded [icebergs]<sub>ICE_FORM</sub>. Vertical fluctuations may be observed during changes of sea-level. [Fast ice]<sub>ICE_FORM</sub> may be formed in situ from sea water or by freezing of [floating ice]<sub>ICE_FORM</sub> of any age to the shore, and it may extend a [few meters]<sub>EXTENT</sub> or [several hundred kilometres]<sub>EXTENT</sub> from the coast.
 
 We have two mentions of fast ice in the example above. The first mention [fast ice] will receive all of the relevant property tags to the right in the text. These properties are: [sea ice], [floating ice], [few meters], [several hundred kilometers]. Then there is a second mention of [fast ice] later in the section. This mention will receive all the relevant property tags to **its right**, which are: [few meters] and [several hundred kilometers].
 
